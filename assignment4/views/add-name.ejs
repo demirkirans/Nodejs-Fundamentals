@@ -1,0 +1,22 @@
+<%- include('includes/head.ejs') %>
+
+</head>
+
+
+<body>
+    
+    <%- include('includes/navigation.ejs') %>
+
+    <main>
+        <div class="main-form">
+            <form action="/admin/add-name" method="POST">
+                <div class="form-control">
+                    <label for="username">USERNAME:</label>
+                    <input id="username" type="text", name="username">
+                    <input style="margin: 0 1rem;" type="submit", value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
